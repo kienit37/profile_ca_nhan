@@ -1,0 +1,66 @@
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+ .logo a img{
+    width: 40px;
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: fixed;
+}
+.vien{
+    width: 700px;
+    height: 450px;
+    background-color: #00000092;
+    border: 1px solid rgba(255, 255, 255, 0.792);
+    border-radius: 15px;
+}
+.bang img{
+    width: 200px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.bang table{
+    width: 100%;
+    
+    
+}
+marquee{
+    width: 300px;
+}
+.mxh img{
+    width: 35px;
+}
